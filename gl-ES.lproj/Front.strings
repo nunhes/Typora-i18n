@@ -176,7 +176,7 @@
 
 "You could undo this operation later via `Edit` → `Undo`." = "Podes desfacer esta operación máis tarde mediante `Editar` → `Desfacer`.";
 
-"You can press <strong>⌘ + Click</strong> to open <a href='#'>links</a> or jump to footnote definition." = "Podes premer <strong>⌘ + Click</strong> para abrir as <a href='#'>ligazóns</a> ou ir á definición da nota ao pé.";
+"You can press <strong>⌘ + Click</strong> to open <a href='#'>links</a> or jump to footnote definition." = "Podes premer <strong>⌘ + Clic</strong> para abrir as <a href='#'>ligazóns</a> ou ir á definición da nota ao pé.";
 "You can press <strong>CTRL + Click</strong> to open <a href='#'>links</a> or jump to footnote definition." = "Podes premer <strong>CTRL + clic</strong> para abrir <a href='#'>ligazóns</a> ou ir á definición da nota ao pé.";
 
 "<strong>Unibody</strong> style has been turned on." = "Activouse o estilo <strong>Unibody</strong>.";
@@ -188,16 +188,16 @@
 "Files in this location (%@) are managed by Typora, and may be deleted automatically.<br/>Please copy content to a new file for further editing." = "Os arquivos desta localización (%@) son xestionados por Typora e poden ser eliminados automaticamente.<br/>Copia o contido nun arquivo novo para a súa posterior edición.";
 
 "File does not exist at path %@." = "O arquivo non existe na ruta %@.";
-"File does not exist at path %@, do you want to create one at that path?" = "O arquivo non existe na ruta %@, queres crear un nese camiño?";
+"File does not exist at path %@, do you want to create one at that path?" = "O arquivo non existe na ruta %@, queres crear un nesa ubicación?";
 
 "No Results" = "Sen resultados";
-"Too many matches" = "Demasiadas coincidenciass";
+"Too many matches" = "Demasiadas coincidencias";
 "Regular Expression" = "Expresión regular";
 
 "Sort by Creation Date (Ascending)" = "Ordear por data de creación (Ascendente)";
 "Sort by Creation Date (Descending)" = "Ordear por data de creación (Descendente)";
 
-"code language" = "Linguaxe do códigoe";
+"code language" = "Linguaxe do código";
 
 "Cannot rename from $1 to $2, please use \"File\" → \"Move To…\" from menubar instead." = "Non se pode cambiar o nome de $1 a $2, usa \"Arquivo\" → \"Mover a...\" na barra de menú.";
 "Markdown file" = "Arquivo Markdown";

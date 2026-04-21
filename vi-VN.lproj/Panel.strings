@@ -1,8 +1,12 @@
 /*
  Panel.strings
  translations for preference panel and other dialogs
+
  by hi@typora.io 
  Vietnamese translated by mwolfinspace < 1234hdpa@gmail.com >
+
+ Edits history:
+  > 12 Aug 2024 - update more translation by HUNG-rushb
  */
 
 /* Preference Panel */
@@ -157,7 +161,6 @@
 "Reset Advanced Settings" = "Khôi phục mặc định cài đặt nâng cao";
 
 /* Image relates on macOS */
-"This fucntion requires latest version of iPic to be installed." = "Tính năng này yêu cầu cài đặt phiên bản iPic mới nhất.";
 "Get iPic" = "Cài đặt iPic";
 "Cannot Continue…" = "Không thể tiếp tục…";
 "This feature require macOS >= 10.11" = "Tính năng này yêu cầu macOS >= 10.11";
@@ -315,7 +318,6 @@
 
 "Sorry, some error happened, current writing content has been copied to clipboard. You could report this to <hi@typora.io> to help us fix this error." = "Xin lỗi, đã có lỗi xuất hiện, nội dung soạn thảo đã được sao chép vào bộ nhớ tạm (clipboard). Bạn có thể báo cáo lỗi này đến <hi@typora.io> để giúp chúng tôi sửa nó ngay.";
 "Try Recovery" = "Thử phục hồi";
-"Other options for Data Recovery" = "Các tuỳ chọn khác để phục hồi dữ liệu";
 
 "When Insert" = "Khi chèn";
 "Upload image" = "Tải ảnh lên";
@@ -354,7 +356,7 @@
 "Unzipping…" = "Đang giải nén…";
 "Finished" = "Đã hoàn tất";
 
-"Typora will launch 3rd party app with file paths of all local images. The image uploader and cloud image storage will then have access to your local images. Are you sure to confinue?" = "Typora sẽ chạy ứng dụng bên thứ ba với đường dẫn tệp tin đến các hình ảnh nội bộ. Công cụ tải ảnh lên và bộ nhớ ảnh trên mây sẽ có quyền truy cập đến các ảnh nội bộ của bạn. Bạn có muốn tiếp tục?";
+"Typora will launch 3rd party app with file paths of all local images. The image uploader and cloud image storage will then have access to your local images. Are you sure to continue?" = "Typora sẽ chạy ứng dụng bên thứ ba với đường dẫn tệp tin đến các hình ảnh nội bộ. Công cụ tải ảnh lên và bộ nhớ ảnh trên mây sẽ có quyền truy cập đến các ảnh nội bộ của bạn. Bạn có muốn tiếp tục?";
 
 "Export operation finished successfully." = "Quá trình xuất kết thúc thành công.";
 
@@ -422,7 +424,7 @@
 "Select" = "Chọn";
 "Target Format" = "Định dạng mục tiêu";
 "auto detect based on target file path" = "tự động phát hiện dựa trên đường dẫn tệp tin mục tiêu";
-"Target File Extensions (separate by whitespace)" = "Mục tiêu phần mở rộng Tệp Tin (ngăn cách bằng khoảng trắng)";
+"Target File Extensions (separate by whitespace)" = "Phần mở rộng Tệp Tin Mục tiêu (ngăn cách bằng khoảng trắng)";
 "e.g: .text .asciidoc or leave this empty" = "ví dụ: .text .asciidoc hoặc để trống";
 "Raw Type" = "Loại thô";
 "Auto" = "Tự động";
@@ -516,3 +518,64 @@
 "Preferred Image Syntax" = "Cú pháp hình ảnh ưa thích";
 "Add ./ for relative path" = "Thêm ./ vào đường dẫn tương đối";
 "When enabled, Typora will use pattern like ./assets/image.png instead of assets/image.png when generating relative path for inserted images." = "Khi được bật, Typora sẽ dử dụng kiểu đường dẫn ./assets/image.png thay vì kiểu assets/image.png khi khởi tạo đường dẫn tương đối cho các hình ảnh được chèn vào tài liệu.";
+
+"Files" = "Các Tệp Tin";
+"Default File Type / Extension" = "Loại Tệp Tin / Phần Mở Rộng Mặc Định";
+"Custom Extension:" = "Phần Mở Rộng Tùy Chỉnh:";
+"Following extensions are supported: %@" = "Các phần mở rộng sau đây được hỗ trợ: %@";
+"e.g: %@" = "ví dụ: %@";
+"When drop file / folder into Typora" = "Khi thả tệp tin / thư mục vào Typora";
+"When drop folder" = "Khi thả thư mục";
+"When drop markdown file" = "Khi thả tệp tin markdown";
+"When drop files that can be imported" = "Khi thả tệp tin có thể được nhập";
+"Open in Typora" = "Mở bằng Typora";
+"Insert Folder Link" = "Nhập Đường Dẫn Thư Mục";
+"Insert File Link" ="Nhập Đường Dẫn Tệp Tin";
+"Import File" = "Nhập Tệp Tin";
+
+"Diagram Options" = "Các Lựa Chọn Biểu Đồ";
+"Default Code Language" = "Ngôn Ngữ Lập Trình Mặc Định";
+"(None)" = "(Không)";
+"Last Used" = "Lần Cuối Sử Dụng";
+"Apply Default Code Language When" = "Áp Dụng Ngôn Ngữ Lập Trình Mặc Định Khi";
+"When add code fences via Markdown" = "Khi thêm hàng rào code thông qua Markdown";
+"When add code fences via Menubar" = "Khi thêm hàng rào code thông qua thanh Menu";
+"Both" = "Cả Hai";
+
+"Pinned and Recent Locations" = "Đã Ghim và Các Vị Trí Gần Đây";
+"Operation Succeeded" = "Thực Thi Thành Công";
+"Clear Recent Folders and Files" = "Dọn Sạch Các Thư Mục và Tệp Tin Gần Đây";
+"Clear Recent Folders / Files Only" = "Chỉ Dọn Sạch Các Thư Mục / Tệp Tin Gần Đây";
+"Clear Recent and Pinned Folders / Files" = "Dọn Sạch Các Thư Mục Gần Đây và Đã Ghim";
+"Also clear pinned folders" = "Đồng thời xóa các thư mục đã ghim";
+"Pin" = "Ghim";
+"Unpin" = "Bỏ ghim";
+"Remove from List" = "Xóa khỏi danh sách";
+"Record recent files and folders" = "Bản ghi các tệp tin và thư mục gần đây";
+
+"System Integration" = "Tích Hợp Hệ Thống";
+"Add \"Markdown\" to \"New\" context menu in Windows Explorer" = "Têm \"Markdown\" vào \"Mới\" menu ngữ cảnh trong Windows Explorer";
+"Delete items from \"New\" context menu in Windows Explorer" = "Xóa các đối tưỡng từ \"Mới\" menu ngữ cảnh trong Windows Explorer";
+"Please try sign out Windows to take effect." = "Xin hãy thử đăng xuất Windows để áp dụng hiệu lực.";
+"Github Style Alert" = "Phong Cách Cảnh Báo Github";
+"Zoom when using mouse wheel and holding %@ key" = "Phóng to khi sử dụng con lăn chuột và giữ phím %@";
+"Current document contains unsaved changes. Do you want to switch to newly duplicated file?" = "Tài liệu hiện tại có những thay đổi chưa được lưu. Bạn có muốn chuyển sang tập tin mới được sao chép??";
+
+"Chapter Level in Outline" = "Cấp Chương trong Dàn Ý";
+"Enable inline math or code block math" = "Bật toán học trên dòng hoặc khối code toán học";
+"Code Block Math  (```math code block)" = "Code Khối Toán Học  (```khối code toán học)";
+"This function requires latest version of iPic to be installed." = "Tính năng này yêu cầu cài đặt phiên bản mới nhất của iPic.";
+"Other Options for Data Recovery" = "Các tùy chọn khác để khôi phục dữ liệu";
+"Image Quality" = "Chất lượng hình ảnh";
+"Medium" = "Trung bình";
+"High" = "Cao";
+"Best" = "Tốt nhất";
+"Use Shift+Tab to auto indent selected code" = "Sử dụng Shift+Tab để tự động thụt lề mã được chọn";
+"When disabled, Shift+Tab will outdent selected code or current line. When enabled, Shift+Tab will auto apply indentation for selected code or current line in code blocks." = "Khi tắt, Shift+Tab sẽ giảm thụt lề mã được chọn hoặc dòng hiện tại. Khi bật, Shift+Tab sẽ tự động áp dụng thụt lề cho mã được chọn hoặc dòng hiện tại trong khối mã.";
+"Auto Links (e.g: https://typora.io)" = "Tự động nhận dạng liên kết (ví dụ: https://typora.io)";
+"When enabled, Typora will auto recognize and highlight URLs (e.g: https://typora.io or mailto:hi@typora.io) in text." = "Khi bật, Typora sẽ tự động nhận dạng và đánh dấu các URL (ví dụ: https://typora.io hoặc mailto:hi@typora.io) trong văn bản.";
+"PicList Path" = "Đường dẫn PicList";
+"Auto Complete" = "Tự động hoàn tất";
+"Enable autocomplete for Emojis" = "Bật tự động hoàn tất cho Emoji";
+"Some settings will only apply after a reload" = "Một số cài đặt chỉ có hiệu lực sau khi tải lại";
+"Reload" = "Tải lại";

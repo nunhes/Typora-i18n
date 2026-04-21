@@ -569,3 +569,13 @@
 "Github Style Alert" = "GitHub 風格提醒區塊";
 "Zoom when using mouse wheel and holding %@ key" = "按住 %@ 鍵並使用滑鼠滾輪進行縮放";
 "Current document contains unsaved changes. Do you want to switch to newly duplicated file?" = "目前文件包含未儲存的變更。您想切換到新建立的副本嗎?";
+
+"Chapter Level in Outline" = "大綱顯示的章節層級";
+"Enable inline math or code block math" = "啟用行內數學式或程式碼區塊數學式";
+"Code Block Math  (```math code block)" = "程式碼區塊數學式 (```math 程式碼區塊)";
+"PicList Path" = "PicList 路徑";
+
+"Auto Complete" = "自動完成";
+"Enable autocomplete for Emojis" = "啟用顏文字自動完成";
+"Some settings will only apply after a reload" = "部分設定將在重新載入後生效";
+"Reload" = "重新載入";

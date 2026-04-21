@@ -573,3 +573,10 @@
 "Chapter Level in Outline" = "Chapter Level in Outline";
 "Enable inline math or code block math" = "Enable inline math or code block math";
 "Code Block Math  (```math code block)" = "Code Block Math  (```math code block)";
+"PicList Path" = "PicList Path";
+
+"Auto Complete" = "Auto Complete";
+"Enable autocomplete for Emojis" = "Enable autocomplete for Emojis";
+
+"Some settings will only apply after a reload" = "Some settings will only apply after a reload";
+"Reload" = "Reload";

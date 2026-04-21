@@ -8,11 +8,29 @@ If you want to help translate Typora into other languages, we would very appreci
 
 #### Find missing text labels
 
-When we upgrade Typora, we could add new text labels for `.strings` files under ` Base.lproj`, to checkout missing text labels under your `{locale}.lproj`, you can try following commands (Thanks to [@BrainCrumbz](https://github.com/BrainCrumbz)), which takes `it-IT.lproj/Welcome.strings` as an example:
+When we upgrade Typora, we could add new text labels for `.strings` files under `Base.lproj`, to checkout missing text labels under your `{locale}.lproj`, you can try following commands (Thanks to [@BrainCrumbz](https://github.com/BrainCrumbz)), which takes `it-IT.lproj/Welcome.strings` as an example:
 
 ```shell
 gawk 'BEGIN { FS=" = " } { print $1 }' Base.lproj/Welcome.strings > base-keys
 gawk 'BEGIN { FS=" = " } { print $1 }' it-IT.lproj/Welcome.strings > it-keys
+```
+
+#### Automatically update text labels
+
+The script [update-translation.py](update-translation.py) can be used to automatically add missing text labels to the `.strings` files. The translated strings will be empty and have to be edited manually. Removed strings will be commented out and moved to the end of the file.
+
+**Note:** All comments, except for the top one and the ones at the bottom of each file **will be removed**. 
+
+```
+usage: update-translation.py [-h] LOCALE
+
+Update translation strings to match base. Removed strings are commented out and moved to the end of the file.
+
+positional arguments:
+  LOCALE      locale identifier (e.g. es-ES)
+
+options:
+  -h, --help  show this help message and exit
 ```
 
 #### Find translation progress and all missing labels
@@ -65,7 +83,7 @@ Feel free to contact us via <hi@typora.io>
 - French by [MOrdinateur](https://github.com/MOrdinateur), [cnovel](https://github.com/cnovel), [m0wh](https://github.com/m0wh), [Arnaud Ligny](https://github.com/ArnaudLigny)
 - Russian by [Bugo](https://github.com/dragomano)
 - Japanese by [tomochan001](https://github.com/tomochan001), [gageas](https://github.com/gageas), [7ma7X](https://github.com/7ma7X), [shuuji3](https://github.com/shuuji3), [ScratchBuild](https://github.com/ScratchBuild), [Hayao0819](https://github.com/Hayao0819)
-- Portuguese (Brazil) by [teuscard](https://github.com/teuscard) [akz92](https://github.com/akz92), [dgsnunes](https://github.com/dgsnunes)
+- Portuguese (Brazil) by [teuscard](https://github.com/teuscard), [akz92](https://github.com/akz92), [dgsnunes](https://github.com/dgsnunes), [jlimadev](https://github.com/jlimadev)
 - German by [rcvd](https://github.com/rcvd), Gert Massheimer, [Indeximal](https://github.com/Indeximal), [tobiasvonarx](https://github.com/tobiasvonarx), [jheschl17](https://github.com/Jheschl17/)
 - German (Switzerland) by [Indeximal](https://github.com/Indeximal)
 - Czech by [byDave251](https://github.com/byDave251), [psimacek](https://github.com/psimacek), [AlexKratky](https://github.com/AlexKratky), [bydavenet](https://github.com/bydavenet), [petrsvag](https://github.com/petrsvag)
@@ -76,7 +94,7 @@ Feel free to contact us via <hi@typora.io>
 - Galician by [nunhes](https://github.com/nunhes)
 - Indonesia by [snatalius](https://github.com/snatalius)
 - Vietnamese by [mwolfinspace](https://github.com/mwolfinspace)
-- Swedish by [Sandskär](https://github.com/passar), [FelixZY](https://github.com/FelixZY)
+- Swedish by [Sandskär](https://github.com/passar), [FelixZY](https://github.com/FelixZY), [MorganAntonsson](https://github.com/MorganAntonsson)
 - Catalan by [jmigual](https://github.com/jmigual)
 - Danish by [archfrog](https://github.com/archfrog)
 - Persian by [sadra](https://github.com/sadra)

@@ -77,7 +77,6 @@
 "Upload Local Images via iPic" = "Upload lokalt billede vha. iPic";
 "When Insert Local Image" = "Når lokalt billede indsættes";
 "Copy Image File to Folder" = "Kopier billede til mappe";
-"Upload Image via iPic" = "Upload billede vha. iPic";
 "Use Image Root Path" = "Brug billedes rodsti";
 "Line Endings" = "Linjeslut";
 "Windows Line Endings (CRLF)" = "Windows linjeslut (CRLF)";
@@ -239,7 +238,6 @@
 "Copy '%@'" = "Kopier '%@'";
 "Copy to %@" = "Kopier til %@";
 "Copy Image to" = "Kopier billede til";
-"Upload via iPic" = "Upload vha. iPic";
 "Open Image Location" = "Åben billedeplacering";
 
 "Learn More" = "Læs mere";
@@ -324,3 +322,47 @@
 "Click" = "Klik";
 
 "Export Setting" = "Eksportér indstilling";
+
+"My License" = "Min licens";
+"Registration / Activation" = "Registrering / aktivering";
+
+"Select Paragraph / Block" = "Vælg paragraf / block";
+
+"Delete Selected" = "Slet valgte";
+"Rename or Move Image to" = "Omdøb eller flyt billede til";
+"Move to %@" = "Flyt til %@";
+"Delete Image" = "Slet billede";
+"Delete Image File" = "Slet billedfil";
+"Reload All Images" = "Genindlæs alle billeder";
+
+"Save %@ As" = "Gem %@ som";
+
+"Copy All Images to" = "Kopiér alle billeder til";
+"Move All Images to" = "Flyt alle billeder til";
+
+"Copy as Image" = "Kopiér som billede";
+
+"Switch Image Syntax" = "Skift billede syntaks";
+"Markdown Style" = "Markdown-stil";
+"HTML Style" = "HTML-stil";
+
+"Code Tools" = "Kode værktøjer";
+"Copy Code Content" = "Kopiér kode blok";
+"Auto Indent Selected Code" = "Indryk automatisk valgte kode";
+"Auto Indent Whole Code" = "Indryk automatisk kode blok";
+
+"Jump to Line Start" = "Hop til start af linje";
+"Jump to Line End" = "Hop til slutningen på linje";
+"Toggle Word Count Popover" = "Flip antal ord popover";
+"Toggle Outline Popover" = "Flip oversigt popover";
+
+"Alert" = "Alarm";
+"Note Block" = "Notatblok";
+"Tip Block" = "Tipblok";
+"Important Block" = "Vigtig blok";
+"Warning Block" = "Advarselsblok";
+"Caution Block" = "Forsigtig blok";
+"Move Table Row Up" = "Flyt tabelrække op";
+"Move Table Row Down" = "Flyt tabelrække ned";
+"Move Table Column Left" = "Flyt tabelkolonne til venstre";
+"Move Table Column Right" = "Flyt tabelkolonne til højre";
